@@ -17,7 +17,7 @@ Ce projet met en place une API Flask connectée à une base de données PostgreS
 
 ## 🛠️ Prérequis  
 Avant de commencer, assurez-vous d'avoir :  
-- **Docker** et **Docker Compose** installés ([voir ici](https://docs.docker.com/get-docker/)).  
+**Docker** et **Docker Compose** installés ([voir ici](https://docs.docker.com/get-docker/)).  
 
 ## 🚀 Lancer l'application  
 1. Clonez ce projet ou téléchargez-le en `.zip`.  
@@ -25,10 +25,12 @@ Avant de commencer, assurez-vous d'avoir :
    ```
    bash
    cd docker-compose-project
+
    ```
 3. Construisez et démarrez les conteneurs : 
 ```
-docker-compose up --build
+   docker-compose up --build
+
 ```
 4. Ouvrez votre navigateur et accédez à : 
 - http://localhost:5001/ → Affiche un message de bienvenue
