@@ -16,7 +16,7 @@ def get_db_connection():
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Bienvenue sur mon API Flask avec PostgreSQL !"})
+    return jsonify({"message": "Bienvenue sur mon API Flask avec PostgreSQL ! By SANHAJI Tlemcen"})
 
 @app.route('/data')
 def get_data():

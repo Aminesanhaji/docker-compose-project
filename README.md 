@@ -5,7 +5,7 @@ Ce projet met en place une API Flask connectée à une base de données PostgreS
 
 ## 📂 Structure du projet  
 
-/docker-compose-project
+/docker-compose-project-SANHAJI
 │── /app
 │   ├── app.py            # Code Flask
 │   ├── requirements.txt   # Dépendances Python
@@ -17,7 +17,7 @@ Ce projet met en place une API Flask connectée à une base de données PostgreS
 
 ## 🛠️ Prérequis  
 Avant de commencer, assurez-vous d'avoir :  
-**Docker** et **Docker Compose** installés ([voir ici](https://docs.docker.com/get-docker/)).  
+Docker et Docker Compose installés.
 
 ## 🚀 Lancer l'application  
 1. Clonez ce projet ou téléchargez-le en `.zip`.  
