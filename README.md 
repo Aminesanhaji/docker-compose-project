@@ -22,16 +22,22 @@ Avant de commencer, assurez-vous d'avoir :
 ## 🚀 Lancer l'application  
 1. Clonez ce projet ou téléchargez-le en `.zip`.  
 2. Accédez au dossier du projet :  
-   ```bash
-   cd docker-compose-project```
+   ```
+   bash
+   cd docker-compose-project
+   ```
 3. Construisez et démarrez les conteneurs : 
-```docker-compose up --build```
+```
+docker-compose up --build
+```
 4. Ouvrez votre navigateur et accédez à : 
 - http://localhost:5001/ → Affiche un message de bienvenue
 - http://localhost:5001/data → Récupère les données de la base de données
 
 ## 🛑 Arrêter les conteneurs : 
-```docker-compose down```
+```
+docker-compose down
+```
 
 ## 🗂️ Explication des fichiers
 - app.py : Code de l'API Flask
