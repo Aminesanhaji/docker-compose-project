@@ -52,3 +52,14 @@ docker-compose down
 - Communication entre Flask et PostgreSQL via Docker Network
 - Volume persistant pour ne pas perdre les données de la base
 
+## ✅ Respect des exigences du projet  
+
+| Condition | Explication |  
+|-----------|------------|  
+| **Au moins deux conteneurs** | Le projet utilise `web` (Flask) et `db` (PostgreSQL). |  
+| **Communication entre conteneurs (TCP/IP)** | Flask (`web`) accède à PostgreSQL (`db`) via le réseau Docker `mynetwork`. |  
+| **Lancement via `docker-compose`** | Utilisation de `docker-compose.yml` pour gérer et lancer les conteneurs. |  
+| **Volume pour la persistance des données** | Volume nommé `db_data` pour stocker les données PostgreSQL. |  
+| **Un conteneur issu d'un `Dockerfile`** | Le conteneur `web` est construit à partir du `Dockerfile` dans `./app`. |  
+| **Autres options `docker-compose`** | Variables d’environnement, réseau personnalisé, `depends_on`, ports exposés (`5001:5000`). |  
+
